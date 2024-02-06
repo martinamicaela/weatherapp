@@ -37,7 +37,19 @@ h1{
 .weather-input .separator {
     height: 1px;
     width: 100%;
+    margin: 25px 0 ;
     background: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather-input .separator::before{
+    content: "or";
+    color: #6C757D;
+    font-size: 1.18rem;
+    padding: 0 15px;
+    margin-top: -4px;
+    background:#E3F2FD;
 }
 .weather-input button{
     width: 100%;
@@ -58,3 +70,28 @@ h1{
 .weather-data{
     width: 100%;
 }
+.current-weather {
+    color: #fff;
+    display: flex;
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    background: #5372f0;
+    justify-content: space-between;
+     
+}
+.current-weather h2{
+   font-size: 1.7rem; 
+}
+.current-weather h4{
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.current-weather .icon img {
+    max-width: 120px;
+    margin-top: -15px;
+}
+.current-weather .icon h4 {
+    margin-top: -10px;
+    text-transform: capitalize;
+} 
