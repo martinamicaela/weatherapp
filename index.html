@@ -11,6 +11,8 @@
   <!-- SITE CSS -->
 
     <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- DEFER attr tells the browser to wait till the page parsed or loaded -->
+    <script src="assets/javaScript/index.js" defer></script>
   
  <!-- PAGE TITLE -->
 
@@ -22,7 +24,7 @@
     <div class="container">
         <div class="weather-input">
             <h3>Enter a City name</h3>
-            <input type="text" placeholder="E.g., New York, London, Tokio">
+            <input class="city-input" type="text" placeholder="E.g., New York, London, Tokio">
             <button class="search-btn">Search</button>
             <div class="separator"></div>
             <button class="location-btn">Use Current Location</button>
